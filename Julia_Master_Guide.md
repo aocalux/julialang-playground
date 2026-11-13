@@ -1,4 +1,5 @@
-# Julia -- Master Guide
+# Julia - Master Guide
+**Author:** ChatGPT
 
 ## Ein praxisorientierter Einstieg in Julia
 
