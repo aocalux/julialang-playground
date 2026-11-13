@@ -22,4 +22,8 @@ end
 
 println(µ)
 
+print("tell me your name: ")
+name = readline()
+println("Hi, $name from Julia (lang)")
+
 ;
