@@ -4,6 +4,11 @@ println()
 print("operator (+,-,*,/): ")
 operator = readline()
 
+if operator ∉ ["+", "-", "*", "/"]
+    println("dumm user!!!")
+    operator = "+"
+end
+
 print("arg1: ")
 arg1 = parse(Float64, readline())
 
