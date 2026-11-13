@@ -8,3 +8,18 @@ function addiere(a, b)
 end
 
 println(addiere(5, 2))
+println(pi + 0)
+
+for i in 1:10
+    println(i)
+end
+
+function computer()
+    return "It's Computer for Science!"
+end
+
+µ = computer()
+
+println(µ)
+
+;
