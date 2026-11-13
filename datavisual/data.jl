@@ -19,23 +19,9 @@ myplot = plot(x, f,
     grid=true,
 )
 
-plot!(myplot, x, g,
-    label="g(x)",
-    linewidth=3,
-    color=:purple
-)
-
-plot!(myplot, x, h,
-    label="h(x)",
-    linewidth=3,
-    color=:gray
-)
-
-plot!(myplot, x, i,
-    label="i(x)",
-    linewidth=3,
-    color=:red;
-)
+plot!(myplot, x, g, label="g(x)", linewidth=3, color=:purple)
+plot!(myplot, x, h, label="h(x)", linewidth=3, color=:gray)
+plot!(myplot, x, i, label="i(x)", linewidth=3, color=:red;)
 
 savefig(myplot, "functions.png")
 
